@@ -1,0 +1,169 @@
+*y {
+    outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -msbox-sizing: border-box;
+    box-sizing: birder-box;
+}
+body {
+    font-family: font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+
+#cover {
+    width: 100%;
+    background-image: url(../img/nurse1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#container {
+  color: white;
+  background: #ffbd17;
+  width: 400px;
+  height: 260px;
+}
+
+#content {
+  color: white;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#midP {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#midP2 {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 500px) {
+    #cover {
+        height: 300px;
+    }
+    #midP {
+        font-size: 16px;
+    }
+    #midP2 {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 500px) {
+    #cover {
+        height: 350px;
+    }
+    #midP {
+        font-size: 25px;
+    }
+    #midP2 {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 700px) {
+    #cover {
+        height: 500px;
+    }
+    #midP {
+        font-size: 30px;
+    }
+    #midP2 {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    #cover {
+        height: 600px;
+    }
+    #content {
+        
+    }
+    #midP {
+        font-size: 40px;
+    }
+    #midP2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #midP {
+            font-size: 52px;
+        }
+        #midP2 {
+            font-size: 24px;
+        }
+    }
+}
+
+.agenda {  }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+.news__more {
+    float: right;
+    color: #333;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+/* non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}*/
+
+
